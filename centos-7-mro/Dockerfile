@@ -12,7 +12,7 @@ MAINTAINER jlisic@gmail.com
 # Build instructions: 
 # docker build -t centos7-mro . --build-arg R_VER=3.3.2
 ARG R_VER
-ENV R_VER=${R_VER:-3.3.1} 
+ENV R_VER=${R_VER:-3.3.3} 
 
 
 # Setup EPEL
